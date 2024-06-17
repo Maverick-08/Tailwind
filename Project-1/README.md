@@ -1,8 +1,81 @@
-# React + Vite
+Welcome file
+Welcome file
+# PROJECT - 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ This project demonstrates how to toggle between "light" and "dark" mode in React using Tailwind Css
+## STEPS 
 
-Currently, two official plugins are available:
+ 1. Setup the initial template from this [site](https://tailwindcss.com/docs/guides/vite) here.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 2. Edit the tailwind.config file.
+```
+/** @type  {import('tailwindcss').Config} */
+
+export  default {
+
+	darkMode:  "class",
+
+	content: [
+
+			"./index.html",
+
+			"./src/**/*.{js,ts,jsx,tsx}",
+
+	],
+
+	theme: {
+
+			extend: {},
+
+	},
+
+	plugins: [],
+
+}
+```
+3. Style your components in the following fashion 
+	`` className=" <Add utility classes for light Mode> dark: <Add utility classes for dark Mode  "`` 
+	#### Example :
+	`` <p className="text-gray-500 dark:text-white-400">Random Text</p>``
+
+4. Use useState() and useEffect() hooks for toggling between "light" and "dark" mode.
+PROJECT - 1
+This project demonstrates how to toggle between “light” and “dark” mode in React using Tailwind Css
+
+STEPS
+Setup the initial template from this site here.
+
+Edit the tailwind.config file.
+
+/** @type  {import('tailwindcss').Config} */
+
+export  default {
+
+	darkMode:  "class",
+
+	content: [
+
+			"./index.html",
+
+			"./src/**/*.{js,ts,jsx,tsx}",
+
+	],
+
+	theme: {
+
+			extend: {},
+
+	},
+
+	plugins: [],
+
+}
+Style your components in the following fashion
+className=" <Add utility classes for light Mode> dark: <Add utility classes for dark Mode "
+
+Example :
+<p className="text-gray-500 dark:text-white-400">Random Text</p>
+
+Use useState() and useEffect() hooks for toggling between “light” and “dark” mode.
+
+Markdown selection 799 bytes 105 words 38 lines Ln 39, Col 85HTML 579 characters 94 words 22 paragraphs
