@@ -1,5 +1,3 @@
-Welcome file
-Welcome file
 # PROJECT - 1
 
  This project demonstrates how to toggle between "light" and "dark" mode in React using Tailwind Css
@@ -38,44 +36,4 @@ export  default {
 	#### Example :
 	`` <p className="text-gray-500 dark:text-white-400">Random Text</p>``
 
-4. Use useState() and useEffect() hooks for toggling between "light" and "dark" mode.
-PROJECT - 1
-This project demonstrates how to toggle between “light” and “dark” mode in React using Tailwind Css
-
-STEPS
-Setup the initial template from this site here.
-
-Edit the tailwind.config file.
-
-/** @type  {import('tailwindcss').Config} */
-
-export  default {
-
-	darkMode:  "class",
-
-	content: [
-
-			"./index.html",
-
-			"./src/**/*.{js,ts,jsx,tsx}",
-
-	],
-
-	theme: {
-
-			extend: {},
-
-	},
-
-	plugins: [],
-
-}
-Style your components in the following fashion
-className=" <Add utility classes for light Mode> dark: <Add utility classes for dark Mode "
-
-Example :
-<p className="text-gray-500 dark:text-white-400">Random Text</p>
-
-Use useState() and useEffect() hooks for toggling between “light” and “dark” mode.
-
-Markdown selection 799 bytes 105 words 38 lines Ln 39, Col 85HTML 579 characters 94 words 22 paragraphs
+4. Use useState() and useEffect() hooks for toggling between "light" and "dark" mode
