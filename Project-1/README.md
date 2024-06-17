@@ -31,7 +31,8 @@ export  default {
 
 }
 ```
-3. Style your components in the following fashion 
+3. Style your components in the following fashion :
+
 	`` className=" <Add utility classes for light Mode> dark: <Add utility classes for dark Mode  "`` 
 	#### Example :
 	`` <p className="text-gray-500 dark:text-white-400">Random Text</p>``
